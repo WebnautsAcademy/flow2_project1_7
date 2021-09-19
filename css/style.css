@@ -1,0 +1,189 @@
+.page-header{
+   background-color:white; 
+}
+.navigation-link{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font: size 14px;
+    line-height: 17px;
+    color: #20242D;
+}
+.active-nav-link{
+    color: #FF7129;
+}
+.header-wrapper-contacts{
+    background-color: #20242D;
+    color:#FFFFFF ;
+}
+.contact-link{
+    color: #FFFFFF;
+    font-family:'Gilroy',sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.header-address{
+    color: #FFFFFF;
+    font-family:'Gilroy',sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.welcome-section{
+    background-color: #5a6a81;
+}
+.main-title{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.welcome-text{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px; 
+    line-height: 17px;
+    text-align: center;
+    background-color: #FF7129;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+}
+.title{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+.text-container{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+.page-footer{
+background-color:#20242D; ;
+}
+.navigation-link-footer{
+    font-family:'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.active-footer-link{
+    color: #FF7129;
+}
+.legal info{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #7B7E85;
+}
+ .button-footer{
+    background: #20242D;
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FF7129;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 28px rgba(255, 113, 41, 0.67));
+ }
+ .line{
+    background: #7B7E85;
+    opacity: 0.3;
+    width: 1500px;
+    height: 1px;
+    left: 50px;
+    top: 144px;
+ }
+ .title-on-background{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #FFFFFF;
+ }
+.section-about{
+   /* position: absolute;*/
+    width: 1600px;
+    height: 350px;
+    left: 0px;
+    top: 91px;
+    background: radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), rgba(32, 36, 45, 0.3);
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+}
+.title-place{
+    position: absolute;
+    width: 130px;
+    height: 47px;
+    left: 217px;
+    top: 291px;
+}
+.thick-font{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.foto-comment{
+    font-family:'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #20242D;
+}
+.attributes{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+}
+.attributes-font{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
+.telefon-font{
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
