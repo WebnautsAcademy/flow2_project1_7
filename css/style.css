@@ -1,3 +1,14 @@
+*{
+    box-sizing: inherit;
+}
+body{
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0px;
+}
+a {
+    text-decoration: none;
+}
 .page-header{
    background-color:white; 
 }
@@ -34,6 +45,8 @@
 }
 .welcome-section{
     background-color: #5a6a81;
+    width: 1600px;
+    height: 844px;
 }
 .main-title{
     font-family: 'Gilroy',sans-serif;
@@ -132,7 +145,6 @@ background-color:#20242D; ;
     color: #FFFFFF;
  }
 .section-about{
-   /* position: absolute;*/
     width: 1600px;
     height: 350px;
     left: 0px;
@@ -186,4 +198,46 @@ background-color:#20242D; ;
     font-size: 16px;
     line-height: 19px;
     color: #20242D;
+}
+.navigation-list{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.navigation-list li{
+    margin-right: 56px;
+
+}
+.navigation-list li:last-child{
+margin: 0;
+}
+.header-wrapper{
+   display: flex; 
+   justify-content: space-between;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 12px;
+   padding-bottom: 7px;
+   align-items: center;
+}
+.header-wrapper-contacts{
+    justify-content: flex-start;
+}
+.header-address{
+    margin-right: auto;
+}
+.contact-link:first-of-type{
+    margin-right: 56px;
+}
+.welcome-section{
+   /* display: flex;*/
+    margin-top: 53px;
+    margin-right: 0;
+}
+.main-title{
+    padding: 271px 319px 462px 320px;
+}
+.welcome-text{
+   align-items:baseline; 
 }
