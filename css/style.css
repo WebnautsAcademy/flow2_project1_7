@@ -1,4 +1,6 @@
-*{
+*,
+*::before
+*::after{
     box-sizing: inherit;
 }
 body{
@@ -22,11 +24,30 @@ a {
     color: #20242D;
 }
 .active-nav-link{
+    position: relative;
     color: #FF7129;
-}
-.header-wrapper-contacts{
+    }
+.active-nav-link::before{
+    position: absolute;
+        background-color: #FF7129; 
+        width: 10px;
+        height: 1px;
+        content: '';
+        top: 50%;
+       right:-18px;
+    }
+    .active-nav-link::after{
+        position: absolute;
+            background-color: #FF7129; 
+            width: 10px;
+            height: 1px;
+            content: '';
+            top: 50%;
+            left: -18px;}
+    .header-wrapper-contacts{
+        position: relative;
     background-color: #20242D;
-    color:#FFFFFF ;
+   
 }
 .contact-link{
     color: #FFFFFF;
@@ -80,18 +101,37 @@ a {
     height: 49px;
     color: #FFFFFF;
 }
+.info-section{
+    position: relative;
+
+}
+
 .title{
     font-family: 'Gilroy',sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 97%;
-    color: #20242D;
+    color:black;
+    position: absolute;
+    width: 290px;
+    height: 47px;
+   right: 428px;
+    top:201px;
+}
+.title-on-background{
+    
+    font-family: 'Gilroy',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #FFFFFF;
     position: absolute;
     width: 700px;
     height: 47px;
-    left: 882px;
-    top: 1136px;
+   right: 428px;
+  
 }
 .text-container{
     font-family: 'Gilroy',sans-serif;
@@ -100,11 +140,11 @@ a {
     font-size: 16px;
     line-height: 24px;
     color: #20242D;
-    position: absolute;
-    width: 535px;
-    height: 216px;
-    left: 865px;
-    top: 1247px;
+}
+.info-section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 .page-footer{
 background-color:#20242D; ;
@@ -258,10 +298,6 @@ margin: 0;
        margin-top: 16px;
        margin-bottom: 59px;
 }
-.info-section{
-    display: flex;
-    justify-content: space-between;
-}
 .text-container{
     display: flex;
 }
@@ -304,12 +340,12 @@ margin: 0;
     list-style: none;
 }
 .title-on-background-title-place{
-width: 130px;
-height: 47px;
-margin-bottom: 103px;
-margin-left: 217px;
-margin-right: 1253px;
-}
+    width: 130px;
+    height: 47px;
+    margin-bottom: 103px;
+    margin-left: 217px;
+    margin-right: 1253px;
+    }
 .text-about{
     display: flex;
 }
