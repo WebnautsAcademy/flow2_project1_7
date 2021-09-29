@@ -303,12 +303,13 @@ margin: 0;
     padding-bottom: 24px;
     list-style: none;
 }
-. title-on-background-title-place{
+.title-on-background-title-place{
 width: 130px;
 height: 47px;
 margin-bottom: 103px;
 margin-left: 217px;
 margin-right: 1253px;
-
-
+}
+.text-about{
+    display: flex;
 }
